@@ -1,0 +1,44 @@
+﻿@model List<Lending.Models.Interest>
+
+<h2 class="mt-5">Manage Interests</h2>
+<div class="mt-3">
+    @if (Model != null)
+    {
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Interest(%)</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @if (Model.Any())
+                {
+                    foreach (var interest in Model)
+                    {
+                        <tr>
+                            <td>@interest.InterestPercentage</td>
+                            <td>
+                                <a asp-controller="Interest" asp-action="Edit" asp-route-id="@interest.Id" class="btn btn-secondary">View</a>
+                            </td>
+                        </tr>
+                    }
+                }
+                else
+                {
+                    <tr>
+                        <td colspan="6" class="text-center">No interests found.</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+    else
+    {
+        <p class="text-danger">Data is not available.</p>
+    }
+
+    <div class="mt-3">
+        <a asp-action="Add" class="btn btn-primary">Add Interest</a>
+    </div>
+</div>

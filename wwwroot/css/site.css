@@ -1,0 +1,75 @@
+html {
+  font-size: 14px;
+}
+
+/* Remove default margin that creates overflow */
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Prevent global scrollbars */
+    height: 100%;
+}
+
+/* Scroll only the main content area (between fixed header and footer) */
+.main-wrapper {
+    padding-top: 72px; /* 56px header height + 16px breathing space */
+    padding-bottom: 50px; /* for the fixed footer */
+    overflow-y: auto;
+    height: calc(100vh - 106px); /* full height minus header and footer */
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.hero {
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+}
+
+.features-section .border {
+    transition: transform 0.3s ease;
+}
+
+    .features-section .border:hover {
+        transform: scale(1.05);
+    }
+
+.navbar-brand {
+    font-size: 1.25rem;
+    letter-spacing: 0.5px;
+}
+
+.nav-link {
+    font-weight: 500;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.btn-outline-light {
+    border-radius: 30px;
+}
+
+.submenu-indent .nav-link {
+    padding-left: 1.5rem;
+    font-size: 0.95rem;
+}
+    .submenu-indent .nav-link::before {
+        content: "\203A";
+        margin-right: 8px;
+        display: inline-block;
+    }

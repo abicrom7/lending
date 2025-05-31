@@ -1,0 +1,58 @@
+[
+  {
+    "ContainingType": "Lending.Controllers.API.LoanController",
+    "Method": "GetBorrowers",
+    "RelativePath": "api/Loan/borrowers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Lending.Controllers.API.LoanController",
+    "Method": "GetCollectors",
+    "RelativePath": "api/Loan/collectors",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Lending.Controllers.API.LoanController",
+    "Method": "GetInterests",
+    "RelativePath": "api/Loan/interests",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Lending.Controllers.API.LoanController",
+    "Method": "AddLoan",
+    "RelativePath": "api/Loan/loans",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "viewModel",
+        "Type": "Lending.Models.ViewModel.LoanViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Lending.Controllers.API.LoanController",
+    "Method": "GetTerms",
+    "RelativePath": "api/Loan/terms",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

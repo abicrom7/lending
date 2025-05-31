@@ -1,0 +1,38 @@
+﻿@{
+    ViewData["Title"] = "Welcome to Lending Management System";
+}
+
+<div class="hero bg-light text-center py-5">
+    <div class="container">
+        <p class="lead text-muted mt-3">
+            Efficiently manage borrowers, loans, and payments — all in one place.
+        </p>
+        <a class="btn btn-primary btn-lg mt-4" asp-controller="Borrower" asp-action="List">View Borrowers</a>
+    </div>
+</div>
+
+<div class="features-section py-5 bg-white">
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-md-4 mb-4">
+                <div class="p-4 border rounded">
+                    <h5 class="fw-bold">Borrower Tracking</h5>
+                    <p class="text-muted">Monitor borrower information and status with ease.</p>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="p-4 border rounded">
+                    <h5 class="fw-bold">Loan Management</h5>
+                    <p class="text-muted">Track loans, repayment schedules, and balances in real-time.</p>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="p-4 border rounded">
+                    <h5 class="fw-bold">Reports & Insights</h5>
+                    <p class="text-muted">Generate quick reports and gain insights into your finances.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
