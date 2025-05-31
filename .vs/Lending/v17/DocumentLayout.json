@@ -144,7 +144,7 @@
               "RelativeDocumentMoniker": "Views\\Term\\List.cshtml",
               "ToolTip": "C:\\Devs\\Lending\\Views\\Term\\List.cshtml",
               "RelativeToolTip": "Views\\Term\\List.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-05-30T22:05:26.566Z",
               "EditorCaption": ""
@@ -171,8 +171,7 @@
               "RelativeToolTip": "Controllers\\API\\LoanController.cs",
               "ViewState": "AgIAAEUAAAAAAAAAAAAUwFAAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T22:08:30.732Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-30T22:08:30.732Z"
             },
             {
               "$type": "Document",

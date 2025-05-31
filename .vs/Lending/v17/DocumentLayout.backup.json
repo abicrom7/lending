@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Devs\\Lending\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{2258EB59-7302-422C-9B09-37827D1914AB}|Lending.csproj|c:\\devs\\lending\\views\\term\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2258EB59-7302-422C-9B09-37827D1914AB}|Lending.csproj|solutionrelative:views\\term\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2258EB59-7302-422C-9B09-37827D1914AB}|Lending.csproj|c:\\devs\\lending\\controllers\\api\\loancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2258EB59-7302-422C-9B09-37827D1914AB}|Lending.csproj|solutionrelative:controllers\\api\\loancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -39,10 +43,6 @@
       "RelativeMoniker": "D:0:0:{2258EB59-7302-422C-9B09-37827D1914AB}|Lending.csproj|solutionrelative:models\\viewmodel\\loanviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2258EB59-7302-422C-9B09-37827D1914AB}|Lending.csproj|c:\\devs\\lending\\views\\term\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2258EB59-7302-422C-9B09-37827D1914AB}|Lending.csproj|solutionrelative:views\\term\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2258EB59-7302-422C-9B09-37827D1914AB}|Lending.csproj|c:\\devs\\lending\\views\\interest\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{2258EB59-7302-422C-9B09-37827D1914AB}|Lending.csproj|solutionrelative:views\\interest\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -73,21 +73,12 @@
           "SelectedChildIndex": 6,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Devs\\Lending\\Views\\Loan\\Edit.cshtml",
-              "RelativeDocumentMoniker": "Views\\Loan\\Edit.cshtml",
-              "ToolTip": "C:\\Devs\\Lending\\Views\\Loan\\Edit.cshtml",
-              "RelativeToolTip": "Views\\Loan\\Edit.cshtml",
-              "ViewState": "AgIAAM0AAAAAAAAAAAAAAJMAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-31T02:21:07.668Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "LoanController.cs",
               "DocumentMoniker": "C:\\Devs\\Lending\\Controllers\\LoanController.cs",
               "RelativeDocumentMoniker": "Controllers\\LoanController.cs",
@@ -95,12 +86,11 @@
               "RelativeToolTip": "Controllers\\LoanController.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAQwEgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T01:41:48.32Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-31T01:41:48.32Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "LoanViewModel.cs",
               "DocumentMoniker": "C:\\Devs\\Lending\\Models\\ViewModel\\LoanViewModel.cs",
               "RelativeDocumentMoniker": "Models\\ViewModel\\LoanViewModel.cs",
@@ -112,7 +102,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Devs\\Lending\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -120,12 +110,11 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T22:56:03.002Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-30T22:56:03.002Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Add.cshtml",
               "DocumentMoniker": "C:\\Devs\\Lending\\Views\\Loan\\Add.cshtml",
               "RelativeDocumentMoniker": "Views\\Loan\\Add.cshtml",
@@ -133,12 +122,11 @@
               "RelativeToolTip": "Views\\Loan\\Add.cshtml",
               "ViewState": "AgIAAGIAAAAAAAAAAAAAAHgAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-30T22:09:50.073Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-30T22:09:50.073Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "List.cshtml",
               "DocumentMoniker": "C:\\Devs\\Lending\\Views\\Loan\\List.cshtml",
               "RelativeDocumentMoniker": "Views\\Loan\\List.cshtml",
@@ -151,6 +139,31 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "List.cshtml",
+              "DocumentMoniker": "C:\\Devs\\Lending\\Views\\Term\\List.cshtml",
+              "RelativeDocumentMoniker": "Views\\Term\\List.cshtml",
+              "ToolTip": "C:\\Devs\\Lending\\Views\\Term\\List.cshtml",
+              "RelativeToolTip": "Views\\Term\\List.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-30T22:05:26.566Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Devs\\Lending\\Views\\Loan\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Loan\\Edit.cshtml",
+              "ToolTip": "C:\\Devs\\Lending\\Views\\Loan\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Loan\\Edit.cshtml",
+              "ViewState": "AgIAAM0AAAAAAAAAAAAAAJMAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-31T02:21:07.668Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "LoanController.cs",
               "DocumentMoniker": "C:\\Devs\\Lending\\Controllers\\API\\LoanController.cs",
               "RelativeDocumentMoniker": "Controllers\\API\\LoanController.cs",
@@ -158,12 +171,11 @@
               "RelativeToolTip": "Controllers\\API\\LoanController.cs",
               "ViewState": "AgIAAEUAAAAAAAAAAAAUwFAAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T22:08:30.732Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-30T22:08:30.732Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Add.cshtml",
               "DocumentMoniker": "C:\\Devs\\Lending\\Views\\Term\\Add.cshtml",
               "RelativeDocumentMoniker": "Views\\Term\\Add.cshtml",
@@ -171,12 +183,11 @@
               "RelativeToolTip": "Views\\Term\\Add.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-30T22:07:41.301Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-30T22:07:41.301Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "BorrowerController.cs",
               "DocumentMoniker": "C:\\Devs\\Lending\\Controllers\\BorrowerController.cs",
               "RelativeDocumentMoniker": "Controllers\\BorrowerController.cs",
@@ -209,18 +220,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-30T22:05:30.292Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "List.cshtml",
-              "DocumentMoniker": "C:\\Devs\\Lending\\Views\\Term\\List.cshtml",
-              "RelativeDocumentMoniker": "Views\\Term\\List.cshtml",
-              "ToolTip": "C:\\Devs\\Lending\\Views\\Term\\List.cshtml",
-              "RelativeToolTip": "Views\\Term\\List.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-30T22:05:26.566Z"
             },
             {
               "$type": "Document",
