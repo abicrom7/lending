@@ -4,7 +4,7 @@ using Lending.Models.ViewModel;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
-namespace Lending.Controllers;
+namespace Lending.Controllers.MVC;
 public class CollectorController : Controller
 {
     private readonly ApplicationDBContext dbContext;

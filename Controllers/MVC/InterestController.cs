@@ -3,7 +3,7 @@ using Lending.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
-namespace Lending.Controllers;
+namespace Lending.Controllers.MVC;
 
 public class InterestController : Controller
 {

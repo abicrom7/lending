@@ -2,7 +2,7 @@ using System.Diagnostics;
 using Lending.Models;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Lending.Controllers
+namespace Lending.Controllers.MVC
 {
     public class HomeController : Controller
     {

@@ -40,5 +40,40 @@ namespace Lending.Controllers.MVC
             return RedirectToAction("List", "Term");
         }
 
+        [HttpGet]
+        public async Task<IActionResult> Edit(int Id)
+        {
+            var term = await dbContext.Terms.FindAsync(Id);
+            return View(term);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Edit(Term model)
+        {
+            var term = await dbContext.Terms.FindAsync(model.Id);
+
+            if (term != null)
+            {
+                term.Months = model.Months;
+                await dbContext.SaveChangesAsync();
+            }
+            return RedirectToAction("List", "Term");
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Delete(Term model)
+        {
+            var term = await dbContext.Terms
+                .AsNoTracking()
+                .FirstOrDefaultAsync(x => x.Id == model.Id);
+
+            if (term != null)
+            {
+                dbContext.Remove(term);
+                await dbContext.SaveChangesAsync();
+            }
+            return RedirectToAction("List", "Term");
+        }
+
     }
 }

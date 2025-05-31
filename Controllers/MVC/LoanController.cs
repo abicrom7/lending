@@ -5,7 +5,7 @@ using Lending.Models.ViewModel;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
-namespace Lending.Controllers;
+namespace Lending.Controllers.MVC;
 
 public class LoanController : Controller
 {
@@ -50,13 +50,16 @@ public class LoanController : Controller
     {
         var loans = dbContext.Loans
             .Include(l => l.Borrower) 
+            .Include(l => l.Interest)
             .Select(l => new LoanViewModel
             {
                 Id = l.Id,
                 LoanReferenceNumber = l.LoanReferenceNumber,
                 BorrowerId = l.BorrowerId,
+                BorrowerName = l.Borrower.Name,
                 CollectorId = l.CollectorId,
                 InterestId = l.InterestId,
+                InterestPercentage = l.Interest.InterestPercentage,
                 Comaker = l.Comaker,
                 LoanPlan = l.LoanPlan,
                 EffectiveDate = l.EffectiveDate,

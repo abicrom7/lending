@@ -165,3 +165,4 @@ C:\Devs\Lending\obj\Debug\net8.0\refint\Lending.dll
 C:\Devs\Lending\obj\Debug\net8.0\Lending.pdb
 C:\Devs\Lending\obj\Debug\net8.0\Lending.genruntimeconfig.cache
 C:\Devs\Lending\obj\Debug\net8.0\ref\Lending.dll
+C:\Devs\Lending\obj\Debug\net8.0\Lending.sourcelink.json

@@ -96,6 +96,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVybVxBZGQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Devs/Lending/Views/Term/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVybVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Devs/Lending/Views/Term/List.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVybVxMaXN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
